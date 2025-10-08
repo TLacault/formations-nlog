@@ -1,0 +1,63 @@
+site_name: Formation NLOG'EIRB
+site_url: https://nlogeirb.com/formations
+
+theme:
+  name: material
+  font:
+    text: Inter
+    code: Fira Code
+  icon:
+    logo: material/tools
+  favicon: assets/favicon.ico
+  features:
+    - navigation.footer
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: blue
+      accent: green
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: deep green
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra:
+  social:
+    - icon: material/web
+      link: https://nlog.eirb.fr/
+    - icon: material/github
+      link: https://github.com/TLacault/formations-nlog
+
+copyright: Copyright &copy NLog'Eirb 2025
+
+extra_css:
+  - stylesheets/extra.css
