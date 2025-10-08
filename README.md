@@ -7,7 +7,7 @@ Ce repository contient la documentation des formations de Data Structures & Algo
 Cette documentation est automatiquement déployée sur GitHub Pages grâce à une action GitHub. À chaque push sur la branche `main`, le site est automatiquement reconstruit et déployé.
 
 ### URL du site
-- **Production** : https://nlogeirb.github.io/formations-nlog/
+- **Production** : https://tlacault.github.io/formations-nlog/
 
 ## 🛠️ Développement local
 

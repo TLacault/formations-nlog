@@ -1,5 +1,5 @@
 site_name: Formation NLOG'EIRB
-site_url: https://nlogeirb.com/formations
+site_url: https://tlacault.github.io/formations-nlog/
 
 theme:
   name: material
@@ -11,6 +11,8 @@ theme:
   favicon: assets/favicon.ico
   features:
     - navigation.footer
+    - content.code.copy
+    - content.code.select
   palette:
     # Dark Mode
     - scheme: slate
@@ -61,3 +63,8 @@ copyright: Copyright &copy NLog'Eirb 2025
 
 extra_css:
   - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Session :
+    - 01 -> Arrays & Hashing: session/01-arrays-hashing.md
