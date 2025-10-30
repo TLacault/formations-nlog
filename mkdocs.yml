@@ -1,13 +1,13 @@
-site_name: Formation NLOG'EIRB
+site_name: NLOG'EIRB - Formations
 site_url: https://tlacault.github.io/formations-nlog/
 
 theme:
   name: material
   font:
     text: Inter
-    code: Fira Code
+    code: Cascadia Code
   icon:
-    logo: material/tools
+    logo: octicons/terminal-16
   favicon: assets/favicon.ico
   features:
     - navigation.footer
@@ -51,6 +51,11 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
 
 extra:
   social:
@@ -58,13 +63,20 @@ extra:
       link: https://nlog.eirb.fr/
     - icon: material/github
       link: https://github.com/TLacault/formations-nlog
+    - icon: material/linkedin
+      link: https://www.linkedin.com/company/nlog-eirb/
+    - icon: material/email
+      link: mailto:nlog@enseirb-matmeca.fr
 
-copyright: Copyright &copy NLog'Eirb 2025
+copyright: Copyright &copy NLOG'EIRB 2025
 
 extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.md
-  - Session :
-    - 01 -> Arrays & Hashing: session/01-arrays-hashing.md
+  - Welcome: index.md
+  - Setup & IDE: setup.md
+  - C++ :
+    - Intro: c++/intro.md
+  - DSA :
+    - Arrays & Hashing: dsa/01-arrays-hashing.md
