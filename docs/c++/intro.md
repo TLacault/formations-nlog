@@ -61,6 +61,13 @@ Vous pouvez spécifier le nom du binaire généré avec `g++ main.cpp -o main`, 
 Hello World !
 ```
 
+!!! tip "Pour accelérer tout ça vous pouvez compiler et exécuter en une seule commande"
+    ```sh
+    g++ main.cpp && clear && ./a.out
+    ```
+    Ici on **compile**, on **clear** le terminal pour avoir un affichage propre puis on **exécute** rien de compliqué.
+    On préfère avoir un affichage claire avec le **minimum d'information** - pendant les challenges vous allez très souvent modifier & exec votre programme.
+
 ## :material-book-cog: Namespace & STL
 
 Pour éviter d'avoir à écrire `std::` à chaque fois qu'on utilise un élément de la **Standard Library**, on peut utiliser le mot clé `using namespace std;` au début du programme.

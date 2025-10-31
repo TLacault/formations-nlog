@@ -76,7 +76,11 @@ extra_css:
 nav:
   - Welcome: index.md
   - Setup & IDE: setup.md
+  - Leetcode: leetcode.md
+  - Mock Interviews: interview.md
   - C++ :
     - Intro: c++/intro.md
   - DSA :
     - Arrays & Hashing: dsa/01-arrays-hashing.md
+  - Tools & Resources: tools.md
+  - Glossaire: glossaire.md

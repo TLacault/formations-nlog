@@ -1,7 +1,7 @@
 # :material-hexagon-multiple-outline: NLOG'EIRB - Data Structures & Algorithms
 
 !!! tip "Bienvenue à toi jeune programmeur !"
-    Ici tu retrouvera toutes les formations **Data Structures & Algorithms** (DSA) et de **Competitive Programming** (CP) données par **NLOG'EIRB**.
+    Ici tu retrouvera toutes les formations **Data Structures & Algorithms** (DSA) et **Competitive Programming** (CP) données par **NLOG'EIRB**.
 
 ## :material-target: Objectifs des formations
 
