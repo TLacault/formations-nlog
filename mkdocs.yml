@@ -81,6 +81,8 @@ nav:
   - C++ :
     - Intro: c++/intro.md
   - DSA :
-    - Arrays & Hashing: dsa/01-arrays-hashing.md
+    - Array: dsa/array.md
+    - Vector: dsa/vector.md
+    - Hash Map: dsa/hashmap.md
   - Tools & Resources: tools.md
   - Glossaire: glossaire.md
