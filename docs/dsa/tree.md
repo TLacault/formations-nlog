@@ -59,30 +59,15 @@ Ils sont fondamentaux en algorithmique pour représenter des relations hiérarch
 
     // Traversals - Recursive
     void inorder(Node* root) {
-        if (!root) return;
-
-        inorder(root->left);
-
-        cout << root->val << " ";
-
-        inorder(root->right);
+        return;
     }
 
     void preorder(Node* root) {
-        if (!root) return;
-
-        cout << root->val << " ";
-
-        preorder(root->left);
-        preorder(root->right);
+        return;
     }
 
     void postorder(Node* root) {
-        if (!root) return;
-
-        postorder(root->left);
-        postorder(root->right);
-        cout << root->val << " ";
+        return;
     }
 
     // Program
