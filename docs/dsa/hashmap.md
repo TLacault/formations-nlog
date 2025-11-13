@@ -34,10 +34,26 @@ int main() {
     score["Alice"] = 90;
     score["Bob"] = 85;
 
+    // score[...] insere l'élément si il n'existe pas
     cout << "Score de Alice: " << score["Alice"] << endl;
 
-    for (auto &p : score)
-        cout << p.first << " : " << p.second << endl;
+    // socre.at(...) renvoi l'élément (doit exister)
+    cout << "Score de Bob: " << score.at("Bob") << endl;
+
+    try {
+        cout << "Score de John: " << score.at("John") << endl;
+    } catch (const exception& e) {
+        cerr << "[John does not exist] " << e.what() << endl;
+    }
+
+    // Valeur par défault = 0
+    cout << "Default Value John: " << score["John"] << endl;
+
+    // parcourir une map
+    for (auto p : score) {
+        // p.first = key,  p.second = value
+        cout << p.first << "\t: " << p.second << endl;
+    }
 }
 ```
 
