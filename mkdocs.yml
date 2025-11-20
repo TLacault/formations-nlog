@@ -85,7 +85,7 @@ nav:
     - Vector: dsa/vector.md
     - Hash Map: dsa/hashmap.md
     - Stack: dsa/stack.md
-    # - Queue: dsa/queue.md
+    - Queue: dsa/queue.md
     - Tree: dsa/tree.md
   - Tools & Resources: tools.md
   - Glossaire: glossaire.md
